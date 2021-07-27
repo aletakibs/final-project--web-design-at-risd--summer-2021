@@ -1,0 +1,36 @@
+.banner {
+  display: block;
+  width: 100%;
+}
+
+nav {
+  width: 16%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  background-color: #d7d2cb;
+  position: fixed;
+}
+
+nav button {
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  background-color: #003e52;
+  color: #d7d2cb;
+  border: solid #c3a0d9;
+  font-family: rama-gothic-m, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+

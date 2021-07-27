@@ -107,3 +107,68 @@ main {
   vertical-align: middle;
   width: 100%;
 }
+/* ____________________photography links_______________________________________________________- */
+.photo-1 img {
+  height: 100%;
+}
+
+.photo-1 {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: 500px;
+}
+
+.Photo-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .5s;
+}
+
+.layer:hover {
+  background: rgb(215, 210, 203, .7);
+}
+
+.layer h3 {
+  font-family: rama-gothic-m, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 1px;
+  color: #003e52;
+  top: 0;
+  left: 5%;
+  transform: translateY(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: .5s;
+}
+
+.layer:hover h3 {
+  top: 80%;
+  opacity: 1;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 40%;
+    max-width: 80%;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
+

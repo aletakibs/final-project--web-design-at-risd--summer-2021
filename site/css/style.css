@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* __________________Nav Bar___________________ */
+header {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.navlinks {
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-top: -60px;
+}
+
+button {
+  display: inline-block;
+  width: 90px;
+  height: 50px;
+  font-family: puffin-arcade-regular, sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  text-transform: uppercase;
+  background-color: #cb8342;
+  border: none;
+  margin-top: 5px;
+  cursor: url('../img/laser.png'), auto;
+}
+
+button:hover {
+  background-image: url('../img/cat-paw.png');
+  background-repeat: no-repeat;
+  background-size: 25px;
+  transition: 1.3s;
+  transition-timing-function: ease-out;
+  background-position: 100px top;
+}
+/* ____________________Main Page Content________________________ */
+.main {
+  width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+h2 {
+  font-family: synthemesc, sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+p {
+  font-family: puffin-arcade-regular, sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.all-caps {
+  text-transform: uppercase;
+  font-size: 80px;
+}
+
+hr {
+  display: block;
+  margin: 30px 200px 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #919389;
+}
+/* _________________________footer_______________________________ */
+footer {
+  margin-top: 50px;
+}
+
+/* _________________________images settings________________________ */
+.img-one {
+  width: 60%;
+  display: block;
+  margin-left: 33%;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.img-three {
+  width: 70%;
+  display: block;
+  margin-left: 20%;
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+
+.img-six {
+  width: 70%;
+  margin-bottom: -120px;
+}
+
+.img-eight {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.img-ten {
+  width: 90%;
+  padding-top: 100px;
+  margin-left: 10%;
+}

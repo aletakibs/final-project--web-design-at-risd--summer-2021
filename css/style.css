@@ -251,3 +251,26 @@ main {
   }
 }
 
+.contact {
+  margin-left: 20%;
+  margin-top: 13.5%;
+}
+
+.contact h2 {
+  font-family: rama-gothic-m, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+  color: #003e52;
+  letter-spacing: 3px;
+}
+
+.contact h3 {
+  font-family: rama-gothic-m, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: #003e52;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
